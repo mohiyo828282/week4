@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Resume - Mohiyo Din</title>
+  <style>
+    body {
+      font-family: "Calibri", Arial, sans-serif;
+      background: #f4f6fa;
+      margin: 0;
+      padding: 20px;
+    }
+    .resume {
+      max-width: 800px;
+      margin: auto;
+      background: #fff;
+      padding: 30px 40px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+      border-radius: 4px;
+    }
+    /* Header */
+    .header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 2px solid #e0e0e0;
+      padding-bottom: 15px;
+    }
+    .header h1 {
+      color: #2b3990;
+      margin: 0;
+      font-size: 26px;
+    }
+    .contact {
+      margin-top: 8px;
+      font-size: 14px;
+      line-height: 1.6;
+    }
+    .contact div {
+      margin-bottom: 3px;
+    }
+    .header img {
+      width: 90px;     /* fixed width */
+      height: 90px;    /* fixed height */
+      object-fit: cover; /* crop inside box */
+      border-radius: 50%; /* make circle */
+      border: 2px solid #2b3990;
+    }
+
+    /* Sections */
+    h2 {
+      font-size: 16px;
+      background: #e8ebf9;
+      color: #2b3990;
+      padding: 5px 10px;
+      margin: 25px 0 10px;
+    }
+    p, li {
+      font-size: 14px;
+      line-height: 1.5;
+    }
+
+    /* Skills in 2 cols */
+    .skills {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 15px;
+    }
+    ul {
+      margin: 0;
+      padding-left: 18px;
+    }
+
+    /* Education, experience */
+    .item {
+      margin-bottom: 15px;
+    }
+    .item-title {
+      font-weight: bold;
+    }
+    .date {
+      float: right;
+      font-size: 13px;
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+  <div class="resume">
+    <!-- Header -->
+    <div class="header">
+      <div>
+        <h1>Mohiyo Din</h1>
+        <div class="contact">
+          <div>📧 mohiyodin72@gmail.com</div>
+          <div>📞 +92 3302217477</div>
+          <div>📍 jevan Hana Garden Town</div>
+          <div>🔗 linkedin.com/in/mohiyo-din-9442a42b3</div>
+        </div>
+      </div>
+      <img src="me.jpg" alt="Profile Photo">
+    </div>
+
+    <!-- Profile -->
+    <h2>Profile</h2>
+    <p>
+      Self-motivated and passionate <b>frontend developer</b> with hands-on experience in 
+      <b>HTML, CSS, Tailwind CSS, and JavaScript</b>. Dedicated to building responsive, 
+      user-friendly web interfaces and continuously expanding knowledge through practical 
+      projects. Quick learner with a keen eye for clean design and functionality. Seeking 
+      opportunities to contribute to dynamic teams and grow in the field of web development.
+    </p>
+
+    <!-- Education -->
+    <h2>Education</h2>
+    <div class="item">
+      <div class="item-title">
+        Software Engineer <span class="date">09/2023 – present</span>
+      </div>
+      <i>Superior University</i>, Lahore, Pakistan
+    </div>
+
+    <!-- Skills -->
+    <h2>Skills</h2>
+    <div class="skills">
+      <ul>
+        <li>Frontend Developer (HTML, CSS, Tailwind CSS, JavaScript)</li>
+        <li>C# and C++ Programming (PF, OOP, DSA)</li>
+        <li>Linux Terminal Commands</li>
+        <li>Client Requirement Gathering & Planning</li>
+      </ul>
+      <ul>
+        <li>MySQL Database Management (CRUD, queries)</li>
+        <li>Responsive Web Design</li>
+        <li>UI/UX Design Basics (Figma)</li>
+        <li>Project Flow Design Expertise</li>
+      </ul>
+    </div>
+
+    <!-- Certificates -->
+    <h2>Certificates</h2>
+    <div class="skills">
+      <ul>
+        <li>Freelancing – DigiSkills.pk (March 2025)</li>
+        <li>Digital Marketing – DigiSkills.pk (March 2025)</li>
+      </ul>
+      <ul>
+        <li>MySQL Database Fundamentals – Superior University (May 2025)</li>
+      </ul>
+    </div>
+
+    <!-- Experience -->
+    <h2>Professional Experience</h2>
+    <div class="item">
+      <div class="item-title">
+        Frontend Developer 
+        <span class="date">06/2025 – 09/2025</span>
+      </div>
+      <i>RepairDesk (Self-Driven Project / Internship), Lahore</i>
+    </div>
+
+    <div class="item">
+      <div class="item-title">
+        Frontend Development Intern 
+        <span class="date">06/2025 – 08/2025</span>
+      </div>
+      <i>Lahore, Pakistan</i>
+      <p>
+        Completed a 3-month internship at RepairDesk as a Frontend Developer. 
+        Worked with Next.js, Tailwind CSS, and PostgreSQL to build responsive 
+        web apps. Contributed to UI design, API integration, and performance improvements.
+      </p>
+    </div>
+  </div>
+</body>
+</html>
